@@ -4,6 +4,10 @@
 
 E_Commerce web application for artists to sell their artwork.
 
+## Technologies
+
+React js, Redux, CSS, Google Firebase
+
 ## Components
 
 - Landing Page
