@@ -3,6 +3,7 @@ import "../styles/products.css"
 import { Data } from "../Data/Data"
 import { setArtworkData } from '../store/actions/artwork-actions'
 import { useDispatch, useSelector } from "react-redux"
+import ArtworkCard from './ArtworkCard'
 
 export default function Products() {
     const dispatch = useDispatch()
@@ -16,9 +17,11 @@ export default function Products() {
 
     return (
         <div className="products__container">
+            <div className="products__artworkDataMap">
             {artwork.map((artItem) => 
-                <h3>{artItem.title}</h3>
+                <ArtworkCard key={artwork.id} artItem={artItem}/>
             )}
+            </div>
         </div>
     )
 }

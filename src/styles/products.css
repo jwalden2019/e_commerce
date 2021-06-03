@@ -1,4 +1,12 @@
 .products__container {
 	background-color: black;
-	height: 100vh;
+	height: 1000%;
+}
+.products__artworkDataMap {
+	display: grid;
+	grid-template-rows: repeat(5, 1fr);
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 100px;
+	margin-left: 200px;
+	padding: 50px;
 }
