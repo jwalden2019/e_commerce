@@ -1,0 +1,1 @@
+export const SET_ARTWORK_DATA = "SET_ARTWORK_DATA";

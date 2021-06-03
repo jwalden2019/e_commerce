@@ -1,14 +1,24 @@
-import React, { useState, useEffect} from 'react'
+import React, { useEffect } from 'react'
 import "../styles/products.css"
-import { db } from "../firebase/firebaseConfig.js";
+import { Data } from "../Data/Data"
+import { setArtworkData } from '../store/actions/artwork-actions'
+import { useDispatch, useSelector } from "react-redux"
 
 export default function Products() {
-    const [artworks, setArtworks] = useState([])
+    const dispatch = useDispatch()
+    const artworkData = useSelector(state => state.artworkData)
+    const artwork = Data
+    console.log(artworkData)
     useEffect(() => {
-		db.collection("artwork").onSnapshot(snapshot);
-		setArtworks(snapshot.docs.map((doc) => doc.data()));
-	}, []);
+        setArtworkData(dispatch, artwork)
+
+    }, [])
+
     return (
-        <div className="products__container"></div>
+        <div className="products__container">
+            {artwork.map((artItem) => 
+                <h3>{artItem.title}</h3>
+            )}
+        </div>
     )
 }

@@ -4,6 +4,7 @@ import Navigation from "./components/Navigation.jsx";
 import LandingPage from "./components/LandingPage.jsx";
 import Products from "./components/Products.jsx";
 import AboutUs from "./components/AboutUs.jsx";
+
 import {
 	BrowserRouter as Router,
 	Switch,
