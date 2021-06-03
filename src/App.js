@@ -10,13 +10,8 @@ import {
 	Route,
 	Redirect,
 } from "react-router-dom";
-// import { db } from "./config/firebase.js";
 
 export default function App() {
-	// useEffect(() => {
-	// 	db.collection("artwork").onSnapshot(snapshot);
-	// 	setArtwork(snapshot.docs);
-	// }, []);
 	return (
 		<div className="app__container">
 			<Router>

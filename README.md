@@ -6,7 +6,7 @@ E_Commerce web application for artists to sell their artwork.
 
 ## Technologies
 
-React js, Redux, CSS, Google Firebase
+React js, Redux, CSS(Flex + Grid), Google Firebase
 
 ## Components
 
