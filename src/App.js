@@ -4,7 +4,12 @@ import Navigation from "./components/Navigation.jsx";
 import LandingPage from "./components/LandingPage.jsx";
 import Products from "./components/Products.jsx";
 import AboutUs from "./components/AboutUs.jsx";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {
+	BrowserRouter as Router,
+	Switch,
+	Route,
+	Redirect,
+} from "react-router-dom";
 // import { db } from "./config/firebase.js";
 
 export default function App() {
@@ -13,8 +18,8 @@ export default function App() {
 	// 	setArtwork(snapshot.docs);
 	// }, []);
 	return (
-		<Router>
-			<div className="app__container">
+		<div className="app__container">
+			<Router>
 				<div className="app__navigation">
 					<Navigation />
 				</div>
@@ -23,9 +28,12 @@ export default function App() {
 						<Route path="/LandingPage" component={LandingPage}></Route>
 						<Route path="/Products" component={Products}></Route>
 						<Route path="/AboutUs" component={AboutUs}></Route>
+						<Route path="*">
+							<Redirect to="/LandingPage" />
+						</Route>
 					</Switch>
 				</div>
-			</div>
-		</Router>
+			</Router>
+		</div>
 	);
 }
