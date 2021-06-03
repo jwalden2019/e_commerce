@@ -32,7 +32,7 @@ export const Data = [
 		artist: "Albert Pepermans",
 		imageURL: "https://bit.ly/3w2faZe",
 		materials: "Acrylic and ink on paper",
-		price: "$7.250",
+		price: "$7,250",
 		title: "Four times a chimney",
 		year: "2020",
 	},

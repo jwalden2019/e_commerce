@@ -1,4 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+
 .card__imageURL {
 	width: 600px;
 	height: 500px;
+	margin-bottom: 10px;
+}
+.card__blurb {
+	color: white;
+	font-family: "Josefin Sans";
+}
+.card__buttons {
+	margin-left: 350px;
+}
+.card__viewItem {
+	margin-left: 25px;
 }
