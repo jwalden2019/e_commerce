@@ -1,18 +1,18 @@
 import React from 'react'
 import "../styles/navigation.css"
-import { BrowserRouter as Router, Switch, Route, Link, Redirect, } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Navigation() {
     return (
         <div className="navigation__container">
-            <Router>
+            <img className="navigation__logo" src="" alt=""/>
                 <div className="navigation__links">
-                    <img className="navigation__logo" src="" alt=""/>
                     <nav>
-                        <Link to="/" className="navigation__name">ArtMarket</Link>
+                        <Link to="/LandingPage" className="navigation__landingpage">ArtMarket</Link>
+                        <Link to="/Products" className="navigation__artworks">Artworks</Link>
+                        <Link to="/AboutUs" className="navigation__about">About Us</Link>
                     </nav>
                 </div>
-            </Router>
         </div>
     )
 }
