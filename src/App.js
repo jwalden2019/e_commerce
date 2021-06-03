@@ -4,12 +4,13 @@ import LandingPage from "./components/LandingPage.jsx";
 import Products from "./components/Products.jsx";
 import AboutUs from "./components/AboutUs.jsx";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { db } from "./config/firebase.js";
+// import { db } from "./config/firebase.js";
 
 export default function App() {
-	useEffect(() => {
-		db.collection("artwork").onSnapshot(snapshot);
-	}, []);
+	// useEffect(() => {
+	// 	db.collection("artwork").onSnapshot(snapshot);
+	// 	setArtwork(snapshot.docs);
+	// }, []);
 	return (
 		<Router>
 			<div className="app__container">
