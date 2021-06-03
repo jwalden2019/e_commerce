@@ -1,4 +1,5 @@
 import React from "react";
+import "./App.css";
 import Navigation from "./components/Navigation.jsx";
 import LandingPage from "./components/LandingPage.jsx";
 import Products from "./components/Products.jsx";
