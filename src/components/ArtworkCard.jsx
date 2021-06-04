@@ -16,7 +16,7 @@ export default function ArtworkCard({ key, artItem }) {
             <p className="card__blurb">{artItem.year}</p>
             <p className="card__blurb">{artItem.price}</p>
         <div className="card__buttons">
-            <button className="card__addCartBtn" onClick={() => addToCart(artItem.id)}>Add To Cart</button>
+            <button className="card__addCartBtn" onClick={() => addToCart(dispatch, artwork.id)}>Add To Cart</button>
             <button className="card__viewItem">View Artwork</button>
         </div>
         </div>
