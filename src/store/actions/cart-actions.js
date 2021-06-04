@@ -1,24 +1,5 @@
-import * as actionTypes from "./cart-actions.js";
+import { ADD_TO_CART } from "../action-types/cart-action-types.js";
 
-export const addToCart = (itemID) => {
-	return {
-		type: actionTypes.ADD_TO_CART,
-		payload: {
-			id: itemID,
-		},
-	};
-};
-export const removeFromCart = (itemID) => {
-	return {
-		type: actionTypes.REMOVE_FROM_CART,
-		payload: {
-			id: itemID,
-		},
-	};
-};
-export const loadCurrentItem = (item) => {
-	return {
-		type: actionTypes.LOAD_CURRENT_ITEM,
-		payload: item,
-	};
+export const addToCart = (dispatch, data) => {
+	return dispatch({ type: ADD_TO_CART, payload: data.id });
 };

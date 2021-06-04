@@ -1,4 +1,7 @@
 .about__container {
 	background-color: black;
 	height: 100vh;
+	font-family: "Courier New", Courier, monospace;
+	color: white;
+	padding: 50px;
 }

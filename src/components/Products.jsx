@@ -7,12 +7,10 @@ import ArtworkCard from './ArtworkCard'
 
 export default function Products() {
     const dispatch = useDispatch()
-    const artworkData = useSelector(state => state.artworkData)
+    useSelector(state => state.artworkData)
     const artwork = Data
-    console.log(artworkData)
     useEffect(() => {
         setArtworkData(dispatch, artwork)
-
     }, [])
 
     return (

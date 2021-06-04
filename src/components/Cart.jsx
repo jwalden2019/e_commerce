@@ -1,9 +1,8 @@
 import React from 'react'
+import "../styles/cart.css"
 
 export default function Cart() {
     return (
-        <div className="cart__container">
-            <h1>Cart</h1>
-        </div>
+        <div className="cart__container"></div>
     )
 }
