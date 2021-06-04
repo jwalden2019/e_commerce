@@ -10,6 +10,7 @@ export default function Navigation() {
                         <Link to="/LandingPage" className="navigation__name">ArtMarket</Link>
                         <Link to="/Products" className="navigation__artworks">Artworks</Link>
                         <Link to="/AboutUs" className="navigation__about">About Us</Link>
+                        <Link to="/Card" className="navigation__cart">Cart</Link>
                     </nav>
                 
         </div>

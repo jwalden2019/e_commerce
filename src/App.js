@@ -4,6 +4,7 @@ import Navigation from "./components/Navigation.jsx";
 import LandingPage from "./components/LandingPage.jsx";
 import Products from "./components/Products.jsx";
 import AboutUs from "./components/AboutUs.jsx";
+import Cart from "./components/Cart.jsx";
 
 import {
 	BrowserRouter as Router,
@@ -24,6 +25,7 @@ export default function App() {
 						<Route path="/LandingPage" component={LandingPage}></Route>
 						<Route path="/Products" component={Products}></Route>
 						<Route path="/AboutUs" component={AboutUs}></Route>
+						<Route path="/Cart" component={Cart}></Route>
 						<Route path="*">
 							<Redirect to="/LandingPage" />
 						</Route>
