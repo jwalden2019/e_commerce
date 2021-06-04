@@ -17,3 +17,17 @@
 .card__viewItem {
 	margin-left: 25px;
 }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.card__imageURL {
+		width: 400px;
+		height: 300px;
+		margin-bottom: 10px;
+	}
+	.card__buttons {
+		margin-left: 150px;
+	}
+	.card__viewItem {
+		margin-left: 25px;
+	}
+}

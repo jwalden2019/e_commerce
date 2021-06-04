@@ -1,4 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+
 .cart__container {
 	background-color: black;
-	height: 100vh;
+	height: 1000vh;
+	padding: 100px;
+}
+.cart__artwork {
+	margin-bottom: 50px;
+}
+.cart__imageURL {
+	width: 600px;
+	height: 500px;
+	margin-bottom: 10px;
+}
+.cart__blurb {
+	color: white;
+	font-family: "Josefin Sans";
 }
