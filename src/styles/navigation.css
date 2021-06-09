@@ -7,12 +7,9 @@
 	background-color: black;
 	width: 100%;
 	height: 60px;
-	border-bottom: 1px solid#3F00FF;
-	object-fit: contain;
 }
 .navigation__links {
-	margin-top: 20px;
-	font-size: 20px;
+	font-size: 30px;
 	font-family: "Bebas Neue";
 }
 .navigation__links a {
@@ -21,9 +18,10 @@
 }
 .navigation__name {
 	margin-left: 20px;
+	font-size: 200px;
 }
 .navigation__artworks {
-	margin-left: 1570px;
+	margin-left: 600px;
 }
 .navigation__about {
 	margin-left: 30px;
@@ -36,11 +34,23 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+	.navigation__links {
+		display: grid;
+		font-size: 30px;
+		font-family: "Bebas Neue";
+	}
 	.navigation__name {
-		margin-left: 80px;
+		margin-left: 6rem;
+		font-size: 80px;
 	}
 	.navigation__artworks {
-		margin-left: 30px;
+		margin-left: 12rem;
+	}
+	.navigation__about {
+		margin-left: 12.3rem;
+	}
+	.navigation__cart {
+		margin-left: 11.8rem;
 	}
 }
 

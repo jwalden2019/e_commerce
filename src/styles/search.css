@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+
+.search__searchField {
+	width: 60%;
+	padding: 5px;
+	border-radius: 10%;
+	margin-top: 100px;
+	margin-left: 210px;
+	font-family: "Josefin Sans";
+	font-size: large;
+	/* border: 3px solid grey; */
+}

@@ -1,0 +1,10 @@
+.slider__mapData {
+	display: grid;
+	grid-template-rows: repeat(2, 1fr);
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-areas: inherit;
+}
+.slider__image {
+	width: 200px;
+	height: 200px;
+}

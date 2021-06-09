@@ -8,6 +8,7 @@ export const Data = [
 		price: "Contact For Price",
 		title: "Telegrama a Somalia desde Mogalico",
 		year: "1989",
+		country: "Columbia",
 	},
 	{
 		id: 2,
@@ -17,6 +18,7 @@ export const Data = [
 		price: "$20,000",
 		title: "Feet & feathers",
 		year: "2013",
+		country: "France",
 	},
 	{
 		id: 3,
@@ -26,6 +28,7 @@ export const Data = [
 		price: "$9,500",
 		title: "Cranes War Shield",
 		year: "2015",
+		country: "United States",
 	},
 	{
 		id: 4,
@@ -35,6 +38,7 @@ export const Data = [
 		price: "$7,250",
 		title: "Four times a chimney",
 		year: "2020",
+		country: "France",
 	},
 	{
 		id: 5,
@@ -44,6 +48,7 @@ export const Data = [
 		price: "$700",
 		title: "Œil pour Œil 1",
 		year: "2021",
+		country: "Albania",
 	},
 	{
 		id: 6,
@@ -53,6 +58,7 @@ export const Data = [
 		price: "$5,000",
 		title: "Mask",
 		year: "2021",
+		country: "Denmark",
 	},
 	{
 		id: 7,
@@ -62,6 +68,7 @@ export const Data = [
 		price: "$50,000",
 		title: "Avatar Lord of the Fire",
 		year: "1952",
+		country: "France",
 	},
 	{
 		id: 8,
@@ -71,6 +78,7 @@ export const Data = [
 		price: "$5,000",
 		title: "Deadline Absalom",
 		year: "2017",
+		country: "France",
 	},
 	{
 		id: 9,
@@ -80,6 +88,7 @@ export const Data = [
 		price: "$10,000",
 		title: "Lot For Sale",
 		year: "2015",
+		country: "United States",
 	},
 	{
 		id: 10,
@@ -89,5 +98,6 @@ export const Data = [
 		price: "$10,000,000",
 		title: "Rites of Lilith",
 		year: "1945",
+		country: "United States",
 	},
 ];
