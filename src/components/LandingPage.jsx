@@ -1,6 +1,6 @@
 import React from 'react'
 import "../styles/landingpage.css"
-import Search from "./Search"
+// import Search from "./Search"
 import ImageSlider from "./ImageSlider"
 
 export default function LandingPage() {
@@ -10,7 +10,7 @@ export default function LandingPage() {
                 <ImageSlider />
             </div>
             <div className="landing__searchComponent">
-                <Search />
+                {/* <Search /> */}
             </div>
         </div>
     )
