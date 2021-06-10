@@ -23,7 +23,7 @@ export default function FeaturePicture() {
   console.log(featuredPicture)
   return (
     <div className="feature__container">
-        <img src={featuredPicture.image} height="900" width="1000" alt=""/>
+        <img className="feature__image" src={featuredPicture.image} height="900" width="1000" alt=""/>
       </div>
   );
 }
