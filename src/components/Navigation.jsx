@@ -1,6 +1,7 @@
 import React from 'react'
 import "../styles/navigation.css"
 import { Link } from "react-router-dom";
+// import Search from "./Search"
 
 export default function Navigation() {
     return (

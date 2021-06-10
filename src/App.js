@@ -5,13 +5,9 @@ import LandingPage from "./components/LandingPage.jsx";
 import Products from "./components/Products.jsx";
 import AboutUs from "./components/AboutUs.jsx";
 import Cart from "./components/Cart.jsx";
+import Error from "./components/Error.jsx";
 
-import {
-	BrowserRouter as Router,
-	Switch,
-	Route,
-	Redirect,
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 export default function App() {
 	return (
@@ -26,9 +22,7 @@ export default function App() {
 						<Route path="/Products" component={Products}></Route>
 						<Route path="/AboutUs" component={AboutUs}></Route>
 						<Route path="/Cart" component={Cart}></Route>
-						<Route path="*">
-							<Redirect to="/LandingPage" />
-						</Route>
+						<Route path="*" component={Error}></Route>
 					</Switch>
 				</div>
 			</Router>

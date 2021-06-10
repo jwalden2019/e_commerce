@@ -2,12 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
 
-.search__searchField {
-	width: 60%;
-	padding: 5px;
-	border-radius: 10%;
-	margin-top: 100px;
-	margin-left: 210px;
-	font-family: "Josefin Sans";
-	font-size: large;
+.error__container {
+	margin-top: 15rem;
+	margin-left: 0rem;
+	font-family: "Bebas Neue";
+	width: 100%;
+	height: 60vh;
+	background-color: red;
 }
+/* .error__message {
+	margin-top: 10rem;
+} */
