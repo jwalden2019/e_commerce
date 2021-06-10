@@ -2,8 +2,8 @@ import React from 'react'
 import "../styles/artworkpage.css"
 import { useSelector } from "react-redux"
 
-export default function IndividualProductPage() {
-    const individualArtwork = useSelector(state => state.artworkReducer)
+export default function IndividualProductPage({artItem}) {
+    const cart = useSelector(state => state.cartReducer)
     return (
        <div className="artwork__container">
             {cart.map(artwork => {

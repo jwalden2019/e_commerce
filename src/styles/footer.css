@@ -3,9 +3,53 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
 
 .footer__container {
+	display: flex;
 	color: white;
-	width: 100%;
-	height: 50vh;
-	background-color: red;
-	margin-top: 30rem;
+	/* width: 100%; */
+	height: 30vh;
+	background-color: black;
+	margin-top: 25rem;
+	border-top: 2px solid red;
+	margin-right: 5rem;
+	margin-left: 5rem;
+}
+.footer__aboutLinks {
+	margin-top: 2rem;
+	padding: 1rem;
+}
+.footer__aboutTitle {
+	font-family: "Bebas Neue";
+	font-size: x-large;
+	margin-left: 5rem;
+}
+.footer__aboutLink {
+	font-size: large;
+	margin-left: 5rem;
+	padding: 0.3rem;
+}
+.footer__resourceLinks {
+	margin-top: 3rem;
+}
+.footer__resourceTitle {
+	font-family: "Bebas Neue";
+	font-size: x-large;
+	margin-left: 40rem;
+}
+.footer__resourceLink {
+	font-size: large;
+	margin-left: 40rem;
+	padding: 0.3rem;
+}
+.footer__supportLinks {
+	margin-top: 3rem;
+}
+.footer__supportTitle {
+	font-family: "Bebas Neue";
+	font-size: x-large;
+	margin-left: 30rem;
+}
+.footer__supportLink {
+	font-size: large;
+	margin-left: 30rem;
+	padding: 0.3rem;
 }

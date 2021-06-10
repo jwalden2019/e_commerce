@@ -4,14 +4,13 @@
 
 .products__container {
 	background-color: black;
-	height: 1000%;
+	height: 1000vh;
 }
 .products__artworkDataMap {
 	display: grid;
 	grid-template-rows: repeat(5, 1fr);
 	grid-template-columns: repeat(2, 1fr);
 	grid-gap: 100px;
-	/* margin-top: 0.5rem; */
 	margin-left: 200px;
 }
 .products__categories {

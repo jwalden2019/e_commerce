@@ -10,7 +10,7 @@ export default function FeaturePicture() {
     let number = 0
     const setPic = () => {
     setTimeout(() => {
-      if (number > 2) {
+      if (number > 1) {
         number = 0
       }
       dispatch({ type: SET_FEATURE, payload: SliderData[number] });
