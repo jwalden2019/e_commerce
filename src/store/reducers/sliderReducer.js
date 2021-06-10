@@ -1,6 +1,7 @@
 import { SET_FEATURE } from "../action-types/slider-actions-types.js";
+import { SliderData } from "../../SliderData.js";
 
-const initialState = [];
+const initialState = SliderData[0];
 
 const sliderReducer = (state = initialState, action) => {
 	switch (action.type) {
